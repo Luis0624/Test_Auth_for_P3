@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
 import Logo from '../images/logo192.png'
 import '../styles/Navbar.css'
 
-function WineBar() {
+function NavBar() {
 
     return (
 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -21,7 +21,7 @@ function WineBar() {
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto" >
       <Nav.Link href="/featured">Featured Wines</Nav.Link>
-      <Nav.Link href="/favorites">My Favorites</Nav.Link>
+      <Nav.Link href="/Favorites">My Favorites</Nav.Link>
       <NavDropdown title="About" id="collasible-nav-dropdown">
         <NavDropdown.Item href="https://github.com/raposogiselle" target="_blank">Giselle</NavDropdown.Item>
         <NavDropdown.Item href="https://github.com/graceyangyxt" target="_blank">Grace</NavDropdown.Item>
@@ -51,4 +51,4 @@ function WineBar() {
 
     )};
 
-export default WineBar;
+export default NavBar;

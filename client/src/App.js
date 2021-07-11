@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import WineBar from './components/Navbar';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import NavBar from './components/Navbar';
+// import NavBar2 from './components/Navbar2';
 import Header from './components/Header';
-import About from './components/About';
 import Featured from './components/Featured';
 // import SignIn from './components/SignIn2';
 // import Signup from './components/SignUp2';
@@ -22,14 +22,13 @@ function App() {
     <AuthApi.Provider value={{ auth, setAuth }}>
       <Router>  
         <div>
-          <WineBar />
+          <NavBar />
             <Route exact path="/" component={Header} />
-            <Route exact path="/about" component={About} />
             <Routes />
             {/* <Route exact path="/login" component={SignIn} />
             <Route exact path="/signup" component={Signup} /> */}
             <Route exact path="/featured" component={Featured} />
-            <Route exact path="/favorites" component={Favorites} />
+            <Route exact path="/Favorites" component={Favorites} />
           <Footer />
         </div>
       </Router>

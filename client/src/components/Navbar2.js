@@ -2,8 +2,9 @@ import React from 'react';
 import { Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
 import Logo from '../images/logo192.png'
 import '../styles/Navbar.css'
+// import WineBar from './Navbar';
 
-function WineBar() {
+function Navbar2() {
 
     return (
 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -51,4 +52,4 @@ function WineBar() {
 
     )};
 
-export default WineBar;
+export default Navbar2;

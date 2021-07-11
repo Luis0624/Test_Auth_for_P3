@@ -4,8 +4,7 @@ import {Row, Col, Card, Container, ListGroup} from 'react-bootstrap';
 // import Carousel from 'react-bootstrap/Carousel';
 // import Modal from "react-bootstrap/Modal";
 import '../styles/Favorites.css'
-import BgLightImg from '../images/bg-light-landingpage-general.png'; // Tell webpack this JS file uses this image
-
+// import BgLightImg from '../images/bg-light-landingpage-general.png'; 
 
 function Favorites() {
     
