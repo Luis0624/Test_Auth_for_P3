@@ -79,3 +79,7 @@ body {
 .footer p {
     margin-bottom: 0;
 }
+
+.carousel-card {
+    position: 'relative'
+}
