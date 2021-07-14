@@ -19,10 +19,10 @@ import CarouselImage from './CarouselImage'
 // import './App.css';
 import img2 from '../images/img2.png'
 import img1 from '../images/img1.gif'
-import img3 from '../images/img3.gif'
+// import img3 from '../images/img3.gif'
 import img4 from '../images/img4.jpg'
 import img5 from '../images/img5.jpg'
-import FavBtn from './FavBtn'
+// import FavBtn from './FavBtn'
 
 const imageValues = [
     {
@@ -98,7 +98,7 @@ function Featured() {
       {/* </div>  */}
     
        
-      <div style={{padding: 8}}>
+      {/* <div style={{padding: 8}}>
         <img src={ img4 } alt="placeholder" style={{width: '100%'}} height="300"/>
       </div>
 
@@ -116,7 +116,7 @@ function Featured() {
 
       <div style={{padding: 8}}>
         <img src={ img5 } alt="placeholder" style={{width: '100%'}} height="300"/>
-      </div>
+      </div> */}
 
       </Carousel>
     </div>

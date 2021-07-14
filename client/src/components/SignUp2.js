@@ -108,6 +108,22 @@ export default function SignUp() {
               />
             </Grid>
             <Grid item xs={12}>
+            <TextField
+                variant="outlined"
+                required
+                fullWidth
+                id="date"
+                label="Birthday"
+                type="date"
+                defaultValue="2017-05-24"
+                className={classes.textField}
+                InputLabelProps={{
+                  shrink: true,
+                }}
+              />
+            </Grid>
+
+            <Grid item xs={12}>
               <FormControlLabel
                 control={<Checkbox value="allowExtraEmails" color="primary" />}
                 label="I want to receive inspiration, marketing promotions and updates via email."
