@@ -1,4 +1,9 @@
 const db = require("../models");
+// to do
+//in signup, use fetch api/axios to send post req to the user.endpoint 
+
+//controller.create should create the user(this is done on line 23 here), await for res/ or use promises to login
+
 
 // Defining methods for the PostsController
 module.exports = {
