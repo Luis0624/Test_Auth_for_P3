@@ -105,6 +105,8 @@ const useStyles = makeStyles((theme) => ({
             </Grid>
             <Grid item xs={12}>
               <TextField
+                value= {email}
+                onChange= {e => setemail(e.target.value)}
                 variant="outlined"
                 required
                 fullWidth
@@ -116,6 +118,8 @@ const useStyles = makeStyles((theme) => ({
             </Grid>
             <Grid item xs={12}>
               <TextField
+                value= {password}
+                onChange= {e => setpassword(e.target.value)}
                 variant="outlined"
                 required
                 fullWidth
@@ -128,6 +132,8 @@ const useStyles = makeStyles((theme) => ({
             </Grid>
             <Grid item xs={12}>
             <TextField
+                value= {dateOfBirth}
+                onChange= {e => setdateOfBirth(e.target.value)}
                 variant="outlined"
                 required
                 fullWidth
