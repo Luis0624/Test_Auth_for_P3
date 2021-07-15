@@ -5,7 +5,7 @@ const db = require("../models");
 //controller.create should create the user(this is done on line 23 here), await for res/ or use promises to login
 
 
-// Defining methods for the PostsController
+// Defining methods for the Posts find user by name or id(ideally)
 module.exports = {
   findAll: function(req, res) {
     db.User.find(req.query)

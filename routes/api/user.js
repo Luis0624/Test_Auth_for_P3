@@ -2,7 +2,7 @@ const router = require("express").Router();
 const usersController = require("../../controllers/usersController");
 
 // Matches with "/api/posts"
-
+//pass in id as a parameter
 router
   .route("/")
   .get(usersController.findAll)
